@@ -1,0 +1,32 @@
+# LLM-generated-SPARQL
+
+Experiments on generating SPARQL in different ways.
+
+## Data evaluator
+
+The data evaluator is a tool that can be used to evaluate the quality of the generated SPARQL queries. 
+It is developed in Python and uses the `streamlib` library.
+
+### Usage
+
+#### Run with plain Python
+
+The data evaluator can be used by running the following command.
+
+```bash
+python3 -m streamlit run data-evaluator-ui.py 
+```
+
+This will open a browser window with the data evaluator interface. 
+
+#### Run with Docker
+
+The data evaluator can also be run using Docker. To do this, run the following command:
+
+```bash
+docker build -t data-evaluator .
+docker run -p 8501:8501 data-evaluator -t data-evaluator-container 
+```
+
+
+
