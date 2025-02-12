@@ -238,10 +238,17 @@ def main():
                     labels = chart_values.keys()
                     # define colors for each icon in the chart
                     colors = ['gold', 'green', 'red']
-                    explode = (0, 0.15, 0)
-                    ax.pie(values, labels=labels, autopct='%1.1f%%',
-                           colors=colors, textprops={'fontsize': 18}, explode=explode)
-                    st.pyplot(fig)
+
+                    try:
+                        explode = (0, 0.15, 0)
+                        ax.pie(values, labels=labels, autopct='%1.1f%%',
+                               colors=colors, textprops={'fontsize': 18}, explode=explode)
+                        st.pyplot(fig)
+                    except:
+                        explode = None
+                        ax.pie(values, labels=labels, autopct='%1.1f%%',
+                               colors=colors, textprops={'fontsize': 18}, explode=explode)
+                        st.pyplot(fig)
 
     process_columns = st.columns(len(PROCESSES)+1, border=True)
     with process_columns[0]:
