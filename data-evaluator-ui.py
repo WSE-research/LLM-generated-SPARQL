@@ -19,6 +19,7 @@ ICON_CORRECT = "✅"
 ICON_INCORRECT = "⚠️"
 ICON_UNKNOWN = "❓"
 ICON_SPARQL_QUERY_INCORRECT = "🛑"
+ICON_MASK = '👺'
 
 
 def get_prepared_results(data):
@@ -27,10 +28,12 @@ def get_prepared_results(data):
     global ICON_CORRECT
     global ICON_INCORRECT
     global ICON_UNKNOWN
+    # global ICON_MASK
 
     valid_query = data.get("valid_query")
     error = data.get("error")
     correct = data.get("correct")
+    # mask_broken = data.get('wikidata_uri_in_masked')
 
     if valid_query != True:
         icon = ICON_NOT_VALID
@@ -69,15 +72,141 @@ def check_sparql_query(normal_query):
     return False
 
 
+def preprocess(record):
+    """Adds additional fields to the record based on the input and the model response"""
+    if not isinstance(record, dict):
+        return
+    
+    if 'error_extra' not in record:
+        record['error_extra'] = []
+
+    record['multiple_clause'] = False
+    record['wikidata_uri_in_masked'] = False
+
+    try:
+        response = record.get("response")
+        response = json.loads(response)
+        query = ' '.join(response.get("query", [])).lower().split()
+
+        if query.count("select") > 1:
+            record['error_extra'].append('Multiple SELECT keywords')
+            record['multiple_clause'] = True
+        if query.count("ask") > 1:
+            record['error_extra'].append('Multiple ASK keywords')
+            record['multiple_clause'] = True
+        
+        if record.get('process', None) == 'masked':
+            if any(i.startswith('wd:') or i.startswith('wdt:') for i in query):
+                record['error_extra'].append('Wikidata URIs present in the masked process output')
+                record['wikidata_uri_in_masked'] = True
+
+        if True in record.get('gold', []) or False in record.get('gold', []):
+            record['expected_type'] = 'ASK'
+        elif record.get('gold') is None:
+            record['expected_type'] = None
+        else:
+            record['expected_type'] = 'SELECT'
+
+        if 'ask' in query:
+            record['predicted_type'] = 'ASK'
+        elif 'select' in query:
+            record['predicted_type'] = 'SELECT'
+        else:
+            record['predicted_type'] = None
+
+    except Exception as e:
+        record['error_extra'].append(f'Exception in function preprocess: {e}')
+
+
+def prepare_stats(data):
+    """Prepares statistics for the data"""
+    stats = {
+        "total": 0,
+        "correct": 0,
+        "incorrect": 0,
+        "error": 0,
+        "valid": 0,
+        "invalid": 0,
+        "unknown": 0,
+        "sparql_query_incorrect": 0,
+        "multiple_clause": 0,
+        "wikidata_uri_in_masked": 0,
+        "wrong_type_predicted": 0,
+    }
+
+    for x, record in enumerate(data):
+        stats["total"] += 1
+        stats["correct"] += 1 if record.get('correct', 0) else 0
+        stats["valid"] += 1 if record.get('valid_query', 0) else 0
+        stats["invalid"] += 1 - int(record.get('valid_query', 0))
+
+        # if record.get('multiple_clause', False):
+        #     stats["multiple_clause"] += 1
+        # if record.get('wikidata_uri_in_masked', False):
+        #     stats["wikidata_uri_in_masked"] += 1
+        # if record.get('expected_type', None) is None:
+        #     stats["expected_type"] += 1
+        # if record.get('predicted_type', None) is None:
+        #     stats["predicted_type"] += 1
+
+    stats["incorrect"] = stats["valid"] - stats["correct"]
+
+    print(stats)
+
+    return stats
+
+
+class LazyData:
+    def __init__(self, file_name):
+        self.file_name = file_name
+        self._data = None
+        self.statistics = None
+
+    def _load_data(self):
+        try:
+            with open(self.file_name, "r") as f:
+                self._data = [json.loads(line) for line in f]
+        except FileNotFoundError:
+            st.error(f"File not found: {self.file_name}")
+            self._data = []
+        except json.JSONDecodeError as e:
+            st.error(f"Error decoding JSON: {e}")
+            self._data = []
+        except Exception as e:
+            st.error(f"An unexpected error occurred: {e}")
+            self._data = []
+
+    @property
+    def data(self):
+        if self._data is None:
+            self._load_data()
+            for x, i in enumerate(self._data):
+                preprocess(i)
+                i["id"] = x
+            # self.statistics = prepare_stats(self._data)
+        return self._data
+
+
+lazy_data = {}
+
+file_list = os.listdir("data")
+for file in file_list:
+    lazy_data[file] = LazyData(f"data/{file}")
+
+
 def main():
+    global lazy_data
+    global file_list
+
     global PROCESSES
     global ICON_NOT_VALID
     global ICON_ERROR
     global ICON_CORRECT
     global ICON_INCORRECT
     global ICON_UNKNOWN
+    global ICON_MASK
 
-    icons = [ICON_CORRECT, ICON_INCORRECT, ICON_NOT_VALID]
+    icons = [ICON_CORRECT, ICON_INCORRECT, ICON_NOT_VALID,]
 
     # use wide mode for better layout
     st.set_page_config(layout="wide")
@@ -87,40 +216,51 @@ def main():
     st.sidebar.header("Choose data source")
 
     # read all files from folder data
-    files = os.listdir("data")
+    # files = os.listdir("data")
 
     # select from existing files in folder data
     st.sidebar.subheader("Select from existing files")
-    file = st.sidebar.selectbox("Select file", files)
+    file = st.sidebar.selectbox("Select file", file_list)
 
     # read JSONL data from selected file
-    data = read_data(file)
+    # data = read_data(file)
+    data = lazy_data[file].data
+
+    # preprocess data:
+    # - Wikidata URIs present in the masked process output
+    # - expected ASK or SELECT query
+    # - predicted ASK or SELECT query
+    # - multiple SELECT keywords
+    # for i in data:
+    #     preprocess(i)
 
     # collect all model names from the data
-    tabulated_data_rows_ids = {}
-    for line in data:
-        line = json.loads(line)
-        model = line.get("model")
-        if model not in tabulated_data_rows_ids:
-            tabulated_data_rows_ids[model] = []
-        tabulated_data_rows_ids[model].append(line)
+    # tabulated_data_rows_ids = {}
+    # for line in data:
+        # line = json.loads(line)
+        # model = line.get("model")
+        # if model not in tabulated_data_rows_ids:
+        # tabulated_data_rows_ids[model] = []
+        # tabulated_data_rows_ids[model].append(line)
     # remove duplicates
-    tabulated_data_rows_ids = list(tabulated_data_rows_ids.keys())
-    tabulated_data_rows_ids.sort()
+    # tabulated_data_rows_ids = set(tabulated_data_rows_ids.keys())
+    # tabulated_data_rows_ids.sort()    
+    tabulated_data_rows_ids = {line.get("model") for line in data}
 
     # collect all process names from the data
-    tabulated_data_column_ids = {}
-    for line in data:
-        line = json.loads(line)
-        process = line.get("process")
-        if process not in tabulated_data_column_ids:
-            tabulated_data_column_ids[process] = []
-        tabulated_data_column_ids[process].append(line)
+    # tabulated_data_column_ids = {}
+    # for line in data:
+        # line = json.loads(line)
+        # process = line.get("process")
+        # if process not in tabulated_data_column_ids:
+        # tabulated_data_column_ids[process] = []
+        # tabulated_data_column_ids[process].append(line)
     # remove duplicates
-    tabulated_data_column_ids = list(tabulated_data_column_ids.keys())
+    # tabulated_data_column_ids = set(tabulated_data_column_ids.keys())
+    tabulated_data_column_ids = {line.get("process") for line in data}
 
     # warn if process names are not the same
-    if tabulated_data_column_ids != PROCESSES:
+    if tabulated_data_column_ids != set(PROCESSES):
         st.warning(
             f"Process names in the data are different from the expected ones: {tabulated_data_column_ids} (expected: {PROCESSES})")
 
@@ -149,11 +289,13 @@ def main():
         "ID of first question to be shown", 0, max_questions - 1, 50)
 
     # sort data
-    data.sort()
+    data.sort(key=lambda x: x.get("id"))
+
     # organize all data
     tabulated_data = {}
     for line in data:
-        line = json.loads(line)
+        # line = json.loads(line)
+        # preprocess(line)
         question = line.get("question")
         model = line.get("model")
         process = line.get("process")
@@ -176,8 +318,15 @@ def main():
             statistics[model][process][icon] = 0
         statistics[model][process][icon] += 1
 
+        if ICON_MASK not in statistics[model][process]:
+            statistics[model][process][ICON_MASK] = 0
+        statistics[model][process][ICON_MASK] += 1 if line['wikidata_uri_in_masked'] else 0
+
         if ICON_SPARQL_QUERY_INCORRECT not in statistics_extra[model][process]:
             statistics_extra[model][process][ICON_SPARQL_QUERY_INCORRECT] = 0
+
+        # if line['wikidata_uri_in_masked']:
+        #     statistics_extra[model][process][ICON_MASK] += 1
 
         if icon == ICON_NOT_VALID:
             # check if normal_query contains SELECT or ASK
@@ -220,16 +369,21 @@ def main():
                     for icon in icons:
                         st.write(
                             f"{icon} : {statistics[model][process][icon]} → {statistics[model][process][icon]/count:.1%}")
+                    st.write(f"{ICON_MASK} : {statistics[model][process][ICON_MASK]}")
                     st.write(f"= {count}")
                     st.write(
                         f"{ICON_SPARQL_QUERY_INCORRECT} SELECT OR ASK missing: {statistics_extra[model][process][ICON_SPARQL_QUERY_INCORRECT]}")
+                    st.write(f'')
                 with right_statistics:
                     # plot the data
                     fig, ax = plt.subplots()
 
-                    chart_values = statistics[model][process]
+                    chart_values = {}
+                    for icon in icons:
+                        chart_values[icon] = statistics[model][process][icon]
+                        # chart_values = statistics[model][process]
                     # sort by keys to have the same order in the chart
-                    chart_values = dict(sorted(chart_values.items()))
+                    # chart_values = dict(sorted(chart_values.items()))
 
                     values = chart_values.values()
                     # fix zero values in the dict_values to avoid error in the chart
@@ -237,7 +391,8 @@ def main():
 
                     labels = chart_values.keys()
                     # define colors for each icon in the chart
-                    colors = ['gold', 'green', 'red']
+                    # colors = ['gold', 'green', 'red']
+                    colors = ['green', 'gold', 'red',]
 
                     try:
                         explode = (0, 0.15, 0)
