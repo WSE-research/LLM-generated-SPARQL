@@ -20,7 +20,7 @@ def json_load(name: str, encoding: str='utf-8', suffix='.json'):
         return json.load(f)
 
 
-url = 'http://141.57.10.81:11434/api/generate'
+url = 'http://localhost:11434/api/generate'
 
 headers = {
     'conent-type': 'application/json'
@@ -39,7 +39,7 @@ qald = json_load('benchmarks/qald9plus.json')
 mcwq = json_load('benchmarks/mcwq.json')
 
 datasets = {
-    'qald-9+': qald,
+    'qald9': qald,
     'mcwq': mcwq,
 }
 
@@ -48,12 +48,13 @@ def main():
     for family, model_list in models.items():
         for dataset_name, dataset in datasets.items():
             print(family, dataset_name)
-            out_file = f'{dataset}-{family}.jsonl'
-            for model in models:
+            out_file = f'results/{dataset_name}-{family}.jsonl'
+            for model in model_list:
+                print(' ', model)
                 for x, item in enumerate(dataset):
-                    print(f'{x+1:>5}/{len(dataset)}'.ljust(100), end='\r')                
+                    print(f'  {x+1:>5}/{len(dataset)}'.ljust(100), end='\r')
                     for process in processes:
-                        print(f'{x+1:>5}/{len(dataset)} - {process}'.ljust(100), end='\r')
+                        print(f'  {x+1:>5}/{len(dataset)} - {process}'.ljust(100), end='\r')
 
                         if not process in item:
                             continue
@@ -71,8 +72,8 @@ def main():
                         }
                         response = requests.post(url, headers=headers, data=json.dumps(data))
 
-                        print(response)
-                        exit()
+#                        print(response.text)
+#                        exit()
 
                         response = {
                             'question': item['en'],
@@ -84,6 +85,8 @@ def main():
 
                         with jsonlines.open(out_file, 'a') as writer:
                             writer.write(response)
+
+                print(f'  {x+1:>5}/{len(dataset)}'.ljust(100))
 
 
 if __name__ == "__main__":
