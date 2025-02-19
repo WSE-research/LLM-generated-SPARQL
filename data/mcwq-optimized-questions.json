@@ -357,576 +357,576 @@
     "question_original": "Was a composer of Spy Kids 3-D: Game Over a star , director , and cinematographer of Sin City , Sin City: A Dame to Kill For , and The Adventures of Sharkboy and Lavagirl in 3-D",
     "llm_generated_optimized_question": "Did the composer of Spy Kids 3-D: Game Over also serve as the star, director, and cinematographer for Sin City, Sin City: A Dame to Kill For, and The Adventures of Sharkboy and Lavagirl in 3-D?",
     "final_optimized_question": "Did the composer of Spy Kids 3-D: Game Over also serve as the star, director, and cinematographer for Sin City, Sin City: A Dame to Kill For, and The Adventures of Sharkboy and Lavagirl in 3-D?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was a star , editor , and cinematographer of Female Vampire and No label defined a Spanish writer and director of 99 Women , No label defined , and The Blood of Fu Manchu",
     "llm_generated_optimized_question": "Did the person who starred, edited, and did cinematography for \"Female Vampire\" and \"No label defined\", also written and directed \"99 Women\", \"No label defined\", and \"The Blood of Fu Manchu\" hailing from Spain?",
-    "final_optimized_question": "Did the person who starred, edited, and did cinematography for \"Female Vampire\" and \"No label defined\", also written and directed \"99 Women\", \"No label defined\", and \"The Blood of Fu Manchu\" hailing from Spain?",
-    "validation_status": "no"
+    "final_optimized_question": "Did the Spanish person who starred in, edited, and directed \"Female Vampire\" and \"No label defined\" also wrote and directed \"99 Women\", \"No label defined\", and \"The Blood of Fu Manchu\"?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "Was Michael Jackson's Ghosts produced by Stan Winston and written by Michael Jackson",
     "llm_generated_optimized_question": "Did Stan Winston produce, and Michael Jackson write, the film \"Ghosts\"?",
     "final_optimized_question": "Did Stan Winston produce, and Michael Jackson write, the film \"Ghosts\"?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What executive producer , editor , composer , cinematographer , and director of Brecha edited and wrote Primary! and In Your Absence",
     "llm_generated_optimized_question": "Who is the executive producer, editor, composer, cinematographer, and director of 'Brecha' who also edited and wrote 'Primary!' and 'In Your Absence'?",
     "final_optimized_question": "Who is the executive producer, editor, composer, cinematographer, and director of 'Brecha' who also edited and wrote 'Primary!' and 'In Your Absence'?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Which distributor and producer of The Magic Flute was founded by Sweden",
     "llm_generated_optimized_question": "Which Swedish company both produced and distributed The Magic Flute?",
     "final_optimized_question": "Which Swedish company both produced and distributed The Magic Flute?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What did human found",
     "llm_generated_optimized_question": "What did humans discover?",
     "final_optimized_question": "What did humans discover?",
-    "validation_status": "no"
+    "validation_status": "exclude"
   },
   {
     "question_original": "What costume designer of a film was Miguel Albaladejo 's Spanish sibling",
     "llm_generated_optimized_question": "What is the name of the costume designer who is the Spanish sibling of Miguel Albaladejo in a film?",
-    "final_optimized_question": "What is the name of the costume designer who is the Spanish sibling of Miguel Albaladejo in a film?",
-    "validation_status": "no"
+    "final_optimized_question": "What is the name of the  Spanish costume designer who is the sibling of Miguel Albaladejo in a film?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "What distributor and producer of Mozart in the Jungle was acquired by The Vanguard Group and BlackRock and acquired Amazon CloudFront , .amazon , Amazon Kindle , and AbeBooks",
     "llm_generated_optimized_question": "Which company, known as the distributor and producer of \"Mozart in the Jungle\", was acquired by The Vanguard Group and BlackRock, and also purchased Amazon CloudFront, .amazon, Amazon Kindle, and AbeBooks?",
     "final_optimized_question": "Which company, known as the distributor and producer of \"Mozart in the Jungle\", was acquired by The Vanguard Group and BlackRock, and also purchased Amazon CloudFront, .amazon, Amazon Kindle, and AbeBooks?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was Hans Ertl a screenwriter",
     "llm_generated_optimized_question": "Did Hans Ertl work as a screenwriter?",
     "final_optimized_question": "Did Hans Ertl work as a screenwriter?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What did Andrei Tarkovsky edit",
     "llm_generated_optimized_question": "What films did Andrei Tarkovsky edit?",
     "final_optimized_question": "What films did Andrei Tarkovsky edit?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Did a film editor 's spouse write and edit The City Tramp , Katzelmacher , Why Does Herr R. Run Amok? , Whity , and In a Year of 13 Moons",
     "llm_generated_optimized_question": "Did the spouse of a film editor write and direct the movies \"The City Tramp\", \"Katzelmacher\", \"Why Does Herr R. Run Amok?\", \"Whity\", and \"In a Year of 13 Moons\"?",
     "final_optimized_question": "Did the spouse of a film editor write and direct the movies \"The City Tramp\", \"Katzelmacher\", \"Why Does Herr R. Run Amok?\", \"Whity\", and \"In a Year of 13 Moons\"?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What employer of Ben LaBolt was Malia Obama 's parent",
     "llm_generated_optimized_question": "Which company did Ben LaBolt work for that is associated with Malia Obama's parent?",
-    "final_optimized_question": "Which company did Ben LaBolt work for that is associated with Malia Obama's parent?",
-    "validation_status": "no"
+    "final_optimized_question": "Who was Malia Obama's parent and Ben LaBolt's employer?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "What was written and edited by Jens Jørgen Thorsen , Ole John , and Jørgen Leth",
     "llm_generated_optimized_question": "What are the works co-written and edited by Jens Jørgen Thorsen, Ole John, and Jørgen Leth?",
-    "final_optimized_question": "What are the works co-written and edited by Jens Jørgen Thorsen, Ole John, and Jørgen Leth?",
-    "validation_status": "no"
+    "final_optimized_question": "What are the works written and edited by Jens Jørgen Thorsen, Ole John, and Jørgen Leth?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "What writer and editor of Every Man for Himself , Passion , and Notre musique was employed by Cahiers du cinéma",
     "llm_generated_optimized_question": "Who was the writer and editor of \"Every Man for Himself\", \"Passion\", and \"Notre Musique\", and also worked at \"Cahiers du cinéma\"?",
     "final_optimized_question": "Who was the writer and editor of \"Every Man for Himself\", \"Passion\", and \"Notre Musique\", and also worked at \"Cahiers du cinéma\"?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What was a film that was edited by , written by , and directed by Jens Jørgen Thorsen , Jørgen Leth , and Ole John",
     "llm_generated_optimized_question": "Which film was edited, written, and directed jointly by Jens Jørgen Thorsen, Jørgen Leth, and Ole John?",
     "final_optimized_question": "Which film was edited, written, and directed jointly by Jens Jørgen Thorsen, Jørgen Leth, and Ole John?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Did a film producer that founded D.W. Griffith Productions , United Artists Corporation , and David W. Griffith Corp. direct and write The Brahma Diamond , His Lost Love , and The Birth of a Nation",
     "llm_generated_optimized_question": "Did the founder of D.W. Griffith Productions, United Artists Corporation, and David W. Griffith Corp., who is also a film producer, direct and write \"The Brahma Diamond\", \"His Lost Love\", and \"The Birth of a Nation\"?",
     "final_optimized_question": "Did the founder of D.W. Griffith Productions, United Artists Corporation, and David W. Griffith Corp., who is also a film producer, direct and write \"The Brahma Diamond\", \"His Lost Love\", and \"The Birth of a Nation\"?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What was executive produced by Steven Spielberg and written by Chris Columbus",
     "llm_generated_optimized_question": "Which project was executive produced by Steven Spielberg and written by Chris Columbus?",
     "final_optimized_question": "Which project was executive produced by Steven Spielberg and written by Chris Columbus?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What employee and founder of World Wide Web Consortium and Open Data Institute was employed by Plessey and was employed by CERN and School of Electronics and Computer Science, University of Southampton",
     "llm_generated_optimized_question": "Who is the founder of the World Wide Web Consortium and Open Data Institute, formerly employed by Plessey, CERN, and the School of Electronics and Computer Science at the University of Southampton?",
-    "final_optimized_question": "Who is the founder of the World Wide Web Consortium and Open Data Institute, formerly employed by Plessey, CERN, and the School of Electronics and Computer Science at the University of Southampton?",
-    "validation_status": "no"
+    "final_optimized_question": "Who is the founder and an employee of the World Wide Web Consortium and Open Data Institute, formerly employed by Plessey, CERN, and the School of Electronics and Computer Science at the University of Southampton?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "Did a director , cinematographer , and writer of This Night write and edit Rio das Mortes , Lili Marleen , and Whity",
     "llm_generated_optimized_question": "Did the same person serve as the director, cinematographer, and writer for \"This Night,\" as well as write and edit \"Rio das Mortes,\" \"Lili Marleen,\" and \"Whity\"?",
     "final_optimized_question": "Did the same person serve as the director, cinematographer, and writer for \"This Night,\" as well as write and edit \"Rio das Mortes,\" \"Lili Marleen,\" and \"Whity\"?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was a cinematographer and director of The Whip and the Body , Hatchet for the Honeymoon , Danger: Diabolik , and Black Sunday a film producer",
     "llm_generated_optimized_question": "Did the cinematographer and director of \"The Whip and the Body\", \"Hatchet for the Honeymoon\", \"Danger: Diabolik\", and \"Black Sunday\" also serve as a film producer?",
     "final_optimized_question": "Did the cinematographer and director of \"The Whip and the Body\", \"Hatchet for the Honeymoon\", \"Danger: Diabolik\", and \"Black Sunday\" also serve as a film producer?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Which cinematographer and star of Inception , Game Over , and Liberation wrote , directed , executive produced , and edited The Madness",
     "llm_generated_optimized_question": "Who is the cinematographer and star of \"Inception\", \"Game Over\", and \"Liberation\" who also took on the roles of writer, director, executive producer, and editor for \"The Madness\"?",
     "final_optimized_question": "Who is the cinematographer and star of \"Inception\", \"Game Over\", and \"Liberation\" who also took on the roles of writer, director, executive producer, and editor for \"The Madness\"?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What employer of Christian Abt was a company 's parent",
     "llm_generated_optimized_question": "Which parent company employed Christian Abt?",
     "final_optimized_question": "Which parent company employed Christian Abt?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Did Ember 's director edit , write , executive produce , and direct Fate , The Waiting Room , and The Confession",
     "llm_generated_optimized_question": "Did the director of \"Ember\" also write, edit, executive produce, and direct \"Fate\", \"The Waiting Room\", and \"The Confession\"?",
     "final_optimized_question": "Did the director of \"Ember\" also write, edit, executive produce, and direct \"Fate\", \"The Waiting Room\", and \"The Confession\"?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was Airplane! written by , directed by , and executive produced by Jim Abrahams , Jerry Zucker , and David Zucker",
     "llm_generated_optimized_question": "Did Jim Abrahams, Jerry Zucker, and David Zucker write, direct, and executive produce the movie Airplane!?",
-    "final_optimized_question": "Did Jim Abrahams, Jerry Zucker, and David Zucker write, direct, and executive produce the movie Airplane!?",
-    "validation_status": "no"
+    "final_optimized_question": "Did Jim Abrahams, Jerry Zucker, and David Zucker write, direct, and executive produce the movie \"Airplane!\"?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "Was a costume designer Nadja Weiss 's Swedish parent",
     "llm_generated_optimized_question": "Did a costume designer named Nadja Weiss have a Swedish parent?",
     "final_optimized_question": "Did a costume designer named Nadja Weiss have a Swedish parent?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was a cinematographer that Rainer Werner Fassbinder , Rainer Werner Fassbinder , and Rainer Werner Fassbinder were edited by , were directed by , and starred Rainer Werner Fassbinder",
     "llm_generated_optimized_question": "Did Rainer Werner Fassbinder edit, direct, and star in a film with a specific cinematographer?",
     "final_optimized_question": "Did Rainer Werner Fassbinder edit, direct, and star in a film with a specific cinematographer?",
-    "validation_status": "no"
+    "validation_status": "exclude"
   },
   {
     "question_original": "What was written and edited by Anker Sørensen",
     "llm_generated_optimized_question": "What are the works authored or edited by Anker Sørensen?",
-    "final_optimized_question": "What are the works authored or edited by Anker Sørensen?",
-    "validation_status": "no"
+    "final_optimized_question": "What was written and edited by Anker Sørensen?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "What editor and cinematographer of Moebius , One on One , and Amen edited , executive produced , and directed Pietà",
     "llm_generated_optimized_question": "Who is the editor, cinematographer and director of the films \"Moebius\", \"One on One\", \"Amen\" and \"Pieta\" who also served as the executive producer for \"Pieta\"?",
-    "final_optimized_question": "Who is the editor, cinematographer and director of the films \"Moebius\", \"One on One\", \"Amen\" and \"Pieta\" who also served as the executive producer for \"Pieta\"?",
-    "validation_status": "no"
+    "final_optimized_question": "Who is the editor and cinematographer of the films \"Moebius\", \"One on One\", \"Amen\" and \"Pieta\" who also served as the executive producer for \"Pieta\"?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "Which film was directed and written by Vilgot Sjöman , Hans Alfredson , Jörn Donner , Gustaf Molander , and Ingmar Bergman",
     "llm_generated_optimized_question": "Which film had Vilgot Sjöman, Hans Alfredson, Jörn Donner, Gustaf Molander, and Ingmar Bergman as its directors and writers?",
     "final_optimized_question": "Which film had Vilgot Sjöman, Hans Alfredson, Jörn Donner, Gustaf Molander, and Ingmar Bergman as its directors and writers?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was Howl's Moving Castle 's executive producer and writer employed by Nibariki , Ghibli Museum , and TMS Entertainment and employed by Shin-Ei Animation , Studio Ghibli , and Tokuma Memorial Cultural Foundation for Animation",
     "llm_generated_optimized_question": "Did the executive producer and writer of Howl's Moving Castle work for Nibariki, Ghibli Museum, TMS Entertainment, Shin-Ei Animation, Studio Ghibli, and Tokuma Memorial Cultural Foundation for Animation?",
     "final_optimized_question": "Did the executive producer and writer of Howl's Moving Castle work for Nibariki, Ghibli Museum, TMS Entertainment, Shin-Ei Animation, Studio Ghibli, and Tokuma Memorial Cultural Foundation for Animation?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was a actor that Wolfgang Ambros and Jan-Mari Carlotti were influenced by and Carolyn Dennis and Sara Dylan married Alexandria Monroe High School 's founder",
     "llm_generated_optimized_question": "Did the founder of Alexandria Monroe High School influence actors Wolfgang Ambros and Jan-Mari Carlotti, and marry Carolyn Dennis and Sara Dylan?",
     "final_optimized_question": "Did the founder of Alexandria Monroe High School influence actors Wolfgang Ambros and Jan-Mari Carlotti, and marry Carolyn Dennis and Sara Dylan?",
-    "validation_status": "no"
+    "validation_status": "exclude"
   },
   {
     "question_original": "What sequel of Between Love and Hatred was distributed and produced by Televisa",
     "llm_generated_optimized_question": "Which sequel to \"Between Love and Hatred\" was produced and distributed by Televisa?",
     "final_optimized_question": "Which sequel to \"Between Love and Hatred\" was produced and distributed by Televisa?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What was written by and produced by Madonna",
     "llm_generated_optimized_question": "Which works were both written and produced by Madonna?",
     "final_optimized_question": "Which works were both written and produced by Madonna?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What writer , director , and executive producer of Twin Peaks: Fire Walk with Me and Twin Peaks executive produced My Son, My Son, What Have Ye Done? and Surveillance",
     "llm_generated_optimized_question": "Who is the writer, director, and executive producer common to \"Twin Peaks: Fire Walk with Me\", \"Twin Peaks\" and also the executive producer for \"My Son, My Son, What Have Ye Done?\" and \"Surveillance\"?",
-    "final_optimized_question": "Who is the writer, director, and executive producer common to \"Twin Peaks: Fire Walk with Me\", \"Twin Peaks\" and also the executive producer for \"My Son, My Son, What Have Ye Done?\" and \"Surveillance\"?",
-    "validation_status": "no"
+    "final_optimized_question": "Who is the writer, director, and executive producer of \"Twin Peaks: Fire Walk with Me\" and \"Twin Peaks\", who also was the executive producer for \"My Son, My Son, What Have Ye Done?\" and \"Surveillance\"?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "Was a cinematographer that Uzak and Clouds of May were directed by , executive produced by , edited by , and written by Nuri Bilge Ceylan trilogy 's director",
     "llm_generated_optimized_question": "Did Nuri Bilge Ceylan, the director of the trilogy, also serve as the cinematographer, executive producer, editor, and writer for Uzak and Clouds of May?",
-    "final_optimized_question": "Did Nuri Bilge Ceylan, the director of the trilogy, also serve as the cinematographer, executive producer, editor, and writer for Uzak and Clouds of May?",
-    "validation_status": "no"
+    "final_optimized_question": "Did the director of the Nuri Bilge Ceylan trilogy also serve as the director, executive producer, editor, and writer for \"Uzak and Clouds of May\"?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "What distributor and producer of Grand Canyon was acquired by State Street Global Advisors , BlackRock , T. Rowe Price , and Capital Group Companies and was acquired by State Farm Insurance and The Vanguard Group",
     "llm_generated_optimized_question": "Which company, as the distributor and producer of Grand Canyon, was acquired by State Street Global Advisors, BlackRock, T. Rowe Price, Capital Group Companies, State Farm Insurance, and The Vanguard Group?",
-    "final_optimized_question": "Which company, as the distributor and producer of Grand Canyon, was acquired by State Street Global Advisors, BlackRock, T. Rowe Price, Capital Group Companies, State Farm Insurance, and The Vanguard Group?",
-    "validation_status": "no"
+    "final_optimized_question": "Which distributor and producer of Grand Canyon was acquired by State Street Global Advisors, BlackRock, T. Rowe Price, Capital Group Companies, State Farm Insurance, and The Vanguard Group?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "Was Airplane! written by , executive produced by , and directed by Jim Abrahams , David Zucker , and Jerry Zucker",
     "llm_generated_optimized_question": "Did Jim Abrahams, David Zucker, and Jerry Zucker write, executive produce, and direct the film Airplane!?",
-    "final_optimized_question": "Did Jim Abrahams, David Zucker, and Jerry Zucker write, executive produce, and direct the film Airplane!?",
-    "validation_status": "no"
+    "final_optimized_question": "Did Jim Abrahams, David Zucker, and Jerry Zucker write, executive produce, and direct the film \"Airplane!\"?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "What was written by Vince Gilligan and produced by Bob Weinstein",
     "llm_generated_optimized_question": "Which works were written by Vince Gilligan and produced by Bob Weinstein?",
     "final_optimized_question": "Which works were written by Vince Gilligan and produced by Bob Weinstein?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Did Night of the Living Dead 's American cinematographer edit , direct , and write Martin , Season of the Witch , and The Crazies",
     "llm_generated_optimized_question": "Did the American cinematographer of 'Night of the Living Dead' also edit, direct, and write 'Martin', 'Season of the Witch', and 'The Crazies'?",
     "final_optimized_question": "Did the American cinematographer of 'Night of the Living Dead' also edit, direct, and write 'Martin', 'Season of the Witch', and 'The Crazies'?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What was written , executive produced , and directed by David Zucker , Jim Abrahams , and Jerry Zucker",
     "llm_generated_optimized_question": "Which works were written, executive produced, and directed by the trio David Zucker, Jim Abrahams, and Jerry Zucker?",
     "final_optimized_question": "Which works were written, executive produced, and directed by the trio David Zucker, Jim Abrahams, and Jerry Zucker?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Which director , star , and writer of Jane B. par Agnès V. , The Beaches of Agnès , and The World of Jacques Demy married , influenced , and was influenced by Jacques Demy",
     "llm_generated_optimized_question": "Who is the director, star, and writer of \"Jane B. par Agnès V.\", \"The Beaches of Agnès\", and \"The World of Jacques Demy\" that had a marital and influential relationship with Jacques Demy?",
     "final_optimized_question": "Who is the director, star, and writer of \"Jane B. par Agnès V.\", \"The Beaches of Agnès\", and \"The World of Jacques Demy\" that had a marital and influential relationship with Jacques Demy?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What sequel of Microsoft Flight Simulator 2004: A Century of Flight did Microsoft distribute",
     "llm_generated_optimized_question": "Which version of Microsoft Flight Simulator was released after Microsoft Flight Simulator 2004: A Century of Flight?",
     "final_optimized_question": "Which version of Microsoft Flight Simulator was released after Microsoft Flight Simulator 2004: A Century of Flight?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was a cinematographer a star , writer , editor , cinematographer , and director of Planet Terror and Sin City",
     "llm_generated_optimized_question": "Did the same individual serve as the star, writer, editor, cinematographer, and director for both \"Planet Terror\" and \"Sin City\"?",
-    "final_optimized_question": "Did the same individual serve as the star, writer, editor, cinematographer, and director for both \"Planet Terror\" and \"Sin City\"?",
-    "validation_status": "no"
+    "final_optimized_question": "Did the same cinematographer serve as the star, writer, editor, cinematographer, and director for both \"Planet Terror\" and \"Sin City\"?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "What was directed by and written by Thomas Schnauz , Peter Gould , George Mastras , Sam Catlin , and Vince Gilligan",
     "llm_generated_optimized_question": "Which projects were directed and written by Thomas Schnauz, Peter Gould, George Mastras, Sam Catlin, and Vince Gilligan?",
     "final_optimized_question": "Which projects were directed and written by Thomas Schnauz, Peter Gould, George Mastras, Sam Catlin, and Vince Gilligan?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was Adolf Hitler 's sibling a employee of Uniqa Insurance Group",
     "llm_generated_optimized_question": "Did any of Adolf Hitler's siblings work for Uniqa Insurance Group?",
     "final_optimized_question": "Did any of Adolf Hitler's siblings work for Uniqa Insurance Group?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was A Good Day to Die Hard executive produced by Bruce Willis",
     "llm_generated_optimized_question": "Did Bruce Willis serve as an executive producer for the movie \"A Good Day to Die Hard\"?",
     "final_optimized_question": "Did Bruce Willis serve as an executive producer for the movie \"A Good Day to Die Hard\"?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What writer and editor of Vagabond , Varda by Agnès , and The Gleaners and I did Jacques Demy marry and influence",
     "llm_generated_optimized_question": "Who is the writer and editor of \"Vagabond\", \"Varda by Agnès\", and \"The Gleaners and I\" that Jacques Demy married and was influenced by?",
     "final_optimized_question": "Who is the writer and editor of \"Vagabond\", \"Varda by Agnès\", and \"The Gleaners and I\" that Jacques Demy married and was influenced by?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was Open Data Institute 's founder and employee employed by CERN and World Wide Web Consortium and employed by School of Electronics and Computer Science, University of Southampton and Plessey",
     "llm_generated_optimized_question": "Did the founder and employee of the Open Data Institute also work for CERN, the World Wide Web Consortium, the School of Electronics and Computer Science at the University of Southampton, and Plessey?",
     "final_optimized_question": "Did the founder and employee of the Open Data Institute also work for CERN, the World Wide Web Consortium, the School of Electronics and Computer Science at the University of Southampton, and Plessey?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What did Eduardo Sánchez , Gareth Evans , Jason Eisener , and Adam Wingard edit and direct",
     "llm_generated_optimized_question": "What films have Eduardo Sánchez, Gareth Evans, Jason Eisener, and Adam Wingard directed and edited?",
-    "final_optimized_question": "What films have Eduardo Sánchez, Gareth Evans, Jason Eisener, and Adam Wingard directed and edited?",
-    "validation_status": "no"
+    "final_optimized_question": "What works have Eduardo Sánchez, Gareth Evans, Jason Eisener, and Adam Wingard directed and edited?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "What writer , executive producer , and editor of The Waiting Room and Fate executive produced and edited The Confession",
     "llm_generated_optimized_question": "Who is the writer, executive producer, and editor common to The Waiting Room, Fate, and The Confession?",
-    "final_optimized_question": "Who is the writer, executive producer, and editor common to The Waiting Room, Fate, and The Confession?",
-    "validation_status": "no"
+    "final_optimized_question": "Who is the writer, executive producer, and editor of The Waiting Room, Fate, and The Confession?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "Was a costume designer Jessica Drake 's Canadian male spouse",
     "llm_generated_optimized_question": "Was Jessica Drake's husband, who is Canadian, a costume designer?",
-    "final_optimized_question": "Was Jessica Drake's husband, who is Canadian, a costume designer?",
-    "validation_status": "no"
+    "final_optimized_question": "Was Jessica Drake's husband a Canadian costume designer?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "Was Π 's sequel san",
     "llm_generated_optimized_question": "Is there a sequel to the film \"Pi\"?",
     "final_optimized_question": "Is there a sequel to the film \"Pi\"?",
-    "validation_status": "no"
+    "validation_status": "exclude"
   },
   {
     "question_original": "Did a director and editor of The Kid , The Floorwalker , A Woman , and Modern Times marry Lita Grey and Mildred Harris and marry Oona O'Neill",
     "llm_generated_optimized_question": "Did the director and editor of \"The Kid\", \"The Floorwalker\", \"A Woman\", and \"Modern Times\" marry Lita Grey, Mildred Harris and Oona O'Neill?",
     "final_optimized_question": "Did the director and editor of \"The Kid\", \"The Floorwalker\", \"A Woman\", and \"Modern Times\" marry Lita Grey, Mildred Harris and Oona O'Neill?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Did a director and executive producer of 1911 direct and write Police Story 2 , Chinese Zodiac , Police Story , and The Fearless Hyena",
     "llm_generated_optimized_question": "Did the director and executive producer of the movie '1911' also direct and write 'Police Story 2', 'Chinese Zodiac', 'Police Story', and 'The Fearless Hyena'?",
     "final_optimized_question": "Did the director and executive producer of the movie '1911' also direct and write 'Police Story 2', 'Chinese Zodiac', 'Police Story', and 'The Fearless Hyena'?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What cinematographer and writer of Herbie , Anyone Lived in a Pretty How Town , Filmmaker , and 1:42.08 directed , wrote , and executive produced Star Wars: Episode IV – A New Hope",
     "llm_generated_optimized_question": "Who is the cinematographer and writer of \"Herbie,\" \"Anyone Lived in a Pretty How Town,\" \"Filmmaker,\" and \"1:42.08\" that also served as the director, writer, and executive producer for \"Star Wars: Episode IV – A New Hope\"?",
     "final_optimized_question": "Who is the cinematographer and writer of \"Herbie,\" \"Anyone Lived in a Pretty How Town,\" \"Filmmaker,\" and \"1:42.08\" that also served as the director, writer, and executive producer for \"Star Wars: Episode IV – A New Hope\"?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What was Jean-François Champollion 's parent",
     "llm_generated_optimized_question": "Who were Jean-François Champollion's parents?",
     "final_optimized_question": "Who were Jean-François Champollion's parents?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was a composer Bob Dylan",
     "llm_generated_optimized_question": "Is Bob Dylan a composer?",
     "final_optimized_question": "Is Bob Dylan a composer?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Which writer and cinematographer of The Emperor , Anyone Lived in a Pretty How Town , 1:42.08 , and Herbie married a person and influenced Marcus Orelias and Lorne Lanning",
     "llm_generated_optimized_question": "Who is the writer and cinematographer of \"The Emperor\", \"Anyone Lived in a Pretty How Town\", \"1:42.08\", and \"Herbie\" who married and influenced Marcus Orelias and Lorne Lanning?",
     "final_optimized_question": "Who is the writer and cinematographer of \"The Emperor\", \"Anyone Lived in a Pretty How Town\", \"1:42.08\", and \"Herbie\" who married and influenced Marcus Orelias and Lorne Lanning?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was Barbary Coast 's producer and distributor founded by Mary Pickford and Charlie Chaplin",
     "llm_generated_optimized_question": "Did Mary Pickford and Charlie Chaplin found the production and distribution company for Barbary Coast?",
-    "final_optimized_question": "Did Mary Pickford and Charlie Chaplin found the production and distribution company for Barbary Coast?",
-    "validation_status": "no"
+    "final_optimized_question": "Did Mary Pickford and Charlie Chaplin found the producer and distributer of Barbary Coast?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "Did Ember 's director edit , executive produce , write , and direct Fate , The Confession , and The Waiting Room",
     "llm_generated_optimized_question": "Did the director of Ember also edit, write, executive produce, and direct Fate, The Confession, and The Waiting Room?",
-    "final_optimized_question": "Did the director of Ember also edit, write, executive produce, and direct Fate, The Confession, and The Waiting Room?",
-    "validation_status": "no"
+    "final_optimized_question": "Did the director of \"Ember\" also edit, write, executive produce, and direct \"Fate\", \"The Confession\", and \"The Waiting Room\"?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "Was a composer a Swedish female spouse of Mattias Järvinen Palme",
     "llm_generated_optimized_question": "Was the wife of Mattias Järvinen Palme a Swedish female composer?",
-    "final_optimized_question": "Was the wife of Mattias Järvinen Palme a Swedish female composer?",
-    "validation_status": "no"
+    "final_optimized_question": "Was the wife of Mattias Järvinen Palme a Swedish composer?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "What writer , star , director , and composer of Shoulder Arms and The Great Dictator was a director of The Floorwalker",
     "llm_generated_optimized_question": "Who directed \"The Floorwalker\" and also served as the writer, star, director, and composer of \"Shoulder Arms\" and \"The Great Dictator\"?",
     "final_optimized_question": "Who directed \"The Floorwalker\" and also served as the writer, star, director, and composer of \"Shoulder Arms\" and \"The Great Dictator\"?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was Stop for Bud written by and edited by Jens Jørgen Thorsen , Jørgen Leth , and Ole John",
     "llm_generated_optimized_question": "Did Jens Jørgen Thorsen, Jørgen Leth, and Ole John write and edit the work, \"Stop for Bud\"?",
     "final_optimized_question": "Did Jens Jørgen Thorsen, Jørgen Leth, and Ole John write and edit the work, \"Stop for Bud\"?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Did Pietà 's editor and executive producer direct , edit , write , and executive produce Dream and Moebius",
     "llm_generated_optimized_question": "Did the director, executive producer, and editor of Pietà also direct, executive produce, write, and edit Dream and Moebius?",
     "final_optimized_question": "Did the director, executive producer, and editor of Pietà also direct, executive produce, write, and edit Dream and Moebius?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What sequel of Twin Peaks starred James Parks",
     "llm_generated_optimized_question": "Which Twin Peaks sequel featured actor James Parks?",
     "final_optimized_question": "Which Twin Peaks sequel featured actor James Parks?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Did a film editor that married Oona O'Neill , Lita Grey , and Mildred Harris and influenced Federico Fellini , Marcel Marceau , and Harold Lloyd found United Artists Corporation",
     "llm_generated_optimized_question": "Did the film editor, who married Oona O'Neill, Lita Grey, and Mildred Harris and influenced Federico Fellini, Marcel Marceau, and Harold Lloyd, found the United Artists Corporation?",
     "final_optimized_question": "Did the film editor, who married Oona O'Neill, Lita Grey, and Mildred Harris and influenced Federico Fellini, Marcel Marceau, and Harold Lloyd, found the United Artists Corporation?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What film did Jens Jørgen Thorsen , Ole John , and Jørgen Leth write , edit , produce , and direct",
     "llm_generated_optimized_question": "Which movie was written, edited, produced, and directed by Jens Jørgen Thorsen, Ole John, and Jørgen Leth?",
     "final_optimized_question": "Which movie was written, edited, produced, and directed by Jens Jørgen Thorsen, Ole John, and Jørgen Leth?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What was written by and edited by Jens Jørgen Thorsen , Jørgen Leth , and Ole John",
     "llm_generated_optimized_question": "What are the works that were written and edited by Jens Jørgen Thorsen, Jørgen Leth, and Ole John?",
     "final_optimized_question": "What are the works that were written and edited by Jens Jørgen Thorsen, Jørgen Leth, and Ole John?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What employer of Dr. Dre was Animal Crossing: Pocket Camp 's distributor",
     "llm_generated_optimized_question": "Who was Dr. Dre's employer that also distributed Animal Crossing: Pocket Camp?",
     "final_optimized_question": "Who was Dr. Dre's employer that also distributed Animal Crossing: Pocket Camp?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was The Magic Flute 's producer and distributor founded by Sweden",
     "llm_generated_optimized_question": "Was the producer and distributor of The Magic Flute founded in Sweden?",
     "final_optimized_question": "Was the producer and distributor of The Magic Flute founded in Sweden?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What distributor and producer of Grand Canyon was acquired by Laurene Powell Jobs and Fidelity Investments and acquired by BlackRock , State Street Global Advisors , T. Rowe Price , and Capital Group Companies",
     "llm_generated_optimized_question": "Which company that distributed and produced \"Grand Canyon\" was acquired by Laurene Powell Jobs and Fidelity Investments, and also acquired by BlackRock, State Street Global Advisors, T. Rowe Price, and the Capital Group Companies?",
-    "final_optimized_question": "Which company that distributed and produced \"Grand Canyon\" was acquired by Laurene Powell Jobs and Fidelity Investments, and also acquired by BlackRock, State Street Global Advisors, T. Rowe Price, and the Capital Group Companies?",
-    "validation_status": "no"
+    "final_optimized_question": "Which company that distributed and produced \"Grand Canyon\" was acquired by Laurene Powell Jobs, Fidelity Investments, BlackRock, State Street Global Advisors, T. Rowe Price, and the Capital Group Companies?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "What was directed by , written by , and edited by Ole John , Jens Jørgen Thorsen , and Jørgen Leth",
     "llm_generated_optimized_question": "Who directed, wrote, and edited a production involving Ole John, Jens Jørgen Thorsen, and Jørgen Leth?",
     "final_optimized_question": "Who directed, wrote, and edited a production involving Ole John, Jens Jørgen Thorsen, and Jørgen Leth?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was a costume designer 's spouse Pierre Van Dormael 's sibling",
     "llm_generated_optimized_question": "Did a costume designer marry a sibling of Pierre Van Dormael?",
     "final_optimized_question": "Did a costume designer marry a sibling of Pierre Van Dormael?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was Takenori Sentō 's spouse a Japanese cinematographer",
     "llm_generated_optimized_question": "Is Takenori Sentō's spouse a Japanese cinematographer?",
     "final_optimized_question": "Is Takenori Sentō's spouse a Japanese cinematographer?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What employer of Claire Doutriaux was a film 's distributor",
     "llm_generated_optimized_question": "Which film distributor company has Claire Doutriaux worked for?",
     "final_optimized_question": "Which film distributor company has Claire Doutriaux worked for?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Which American founder and employee of Sally Ride Science was employed by Center for International Security and Cooperation and employed by Stanford University , National Aeronautics and Space Administration , and University of California, San Diego",
     "llm_generated_optimized_question": "Which American founder of Sally Ride Science, who also worked at the Center for International Security and Cooperation, Stanford University, NASA, and University of California, San Diego?",
-    "final_optimized_question": "Which American founder of Sally Ride Science, who also worked at the Center for International Security and Cooperation, Stanford University, NASA, and University of California, San Diego?",
-    "validation_status": "no"
+    "final_optimized_question": "Which American founder and employee of Sally Ride Science also worked at the Center for International Security and Cooperation, Stanford University, NASA, and University of California, San Diego?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "Was a company 's founder Alphonse-Louis du Plessis de Richelieu 's French sibling",
     "llm_generated_optimized_question": "Did Alphonse-Louis du Plessis de Richelieu, a company founder, have a sibling from France?",
     "final_optimized_question": "Did Alphonse-Louis du Plessis de Richelieu, a company founder, have a sibling from France?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Which distributor and producer of The Magic Flute did Sweden found",
     "llm_generated_optimized_question": "What is the name of the distributor and producer of 'The Magic Flute' that was established in Sweden?",
     "final_optimized_question": "What is the name of the distributor and producer of 'The Magic Flute' that was established in Sweden?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Did a film producer write , executive produce , edit , and direct Pietà , Moebius , and Dream",
     "llm_generated_optimized_question": "Did the same person serve as the writer, executive producer, editor, and director for the films Pietà, Moebius, and Dream?",
     "final_optimized_question": "Did the same person serve as the writer, executive producer, editor, and director for the films Pietà, Moebius, and Dream?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was World Wide Fund for Nature 's founder a Dutch sibling of Prince Aschwin of Lippe-Biesterfeld",
     "llm_generated_optimized_question": "Did a Dutch sibling of Prince Aschwin of Lippe-Biesterfeld found the World Wide Fund for Nature?",
     "final_optimized_question": "Did a Dutch sibling of Prince Aschwin of Lippe-Biesterfeld found the World Wide Fund for Nature?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What was directed , written , and edited by Ole John , Jørgen Leth , and Jens Jørgen Thorsen",
     "llm_generated_optimized_question": "Which work was directed, written, and edited by Ole John, Jørgen Leth, and Jens Jørgen Thorsen?",
     "final_optimized_question": "Which work was directed, written, and edited by Ole John, Jørgen Leth, and Jens Jørgen Thorsen?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was a composer of The Chess Players a cinematographer",
     "llm_generated_optimized_question": "Did the composer of \"The Chess Players\" also work as a cinematographer?",
     "final_optimized_question": "Did the composer of \"The Chess Players\" also work as a cinematographer?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What female sibling of Ptolemy X Alexander I was Ptolemy IX Lathyros 's sibling and spouse",
     "llm_generated_optimized_question": "Who was the sister and wife of Ptolemy IX Lathyros, also a sibling to Ptolemy X Alexander I?",
-    "final_optimized_question": "Who was the sister and wife of Ptolemy IX Lathyros, also a sibling to Ptolemy X Alexander I?",
-    "validation_status": "no"
+    "final_optimized_question": "Who was the sister and wife of Ptolemy IX Lathyros, also a sibling to Ptolemy X and Alexander I?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "Was a star , writer , and editor of The Adventures of Sharkboy and Lavagirl in 3-D , Planet Terror , and Sin City Once Upon a Time in Mexico 's cinematographer , director , editor , and composer",
     "llm_generated_optimized_question": "Who served as the star, writer, editor, cinematographer, director, and composer for the films \"The Adventures of Sharkboy and Lavagirl in 3-D\", \"Planet Terror\", \"Sin City\" and \"Once Upon a Time in Mexico\"?",
     "final_optimized_question": "Who served as the star, writer, editor, cinematographer, director, and composer for the films \"The Adventures of Sharkboy and Lavagirl in 3-D\", \"Planet Terror\", \"Sin City\" and \"Once Upon a Time in Mexico\"?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was Four Rooms directed and written by Alexandre Rockwell , Quentin Tarantino , Allison Anders , and Robert Rodriguez",
     "llm_generated_optimized_question": "Did Alexandre Rockwell, Quentin Tarantino, Allison Anders, and Robert Rodriguez direct and write Four Rooms?",
     "final_optimized_question": "Did Alexandre Rockwell, Quentin Tarantino, Allison Anders, and Robert Rodriguez direct and write Four Rooms?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was a costume designer a Swedish spouse of Mark Sylwan",
     "llm_generated_optimized_question": "Did the spouse of Mark Sylwan, who is from Sweden, work as a costume designer?",
     "final_optimized_question": "Did the spouse of Mark Sylwan, who is from Sweden, work as a costume designer?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Which film producer was a editor , executive producer , director , and writer of Uzak and Clouds of May",
     "llm_generated_optimized_question": "Who was the director, writer, editor and executive producer of the films Uzak and Clouds of May?",
     "final_optimized_question": "Who was the director, writer, editor and executive producer of the films Uzak and Clouds of May?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was Max Margules employed by Austria",
     "llm_generated_optimized_question": "Did Austria employ Max Margules?",
     "final_optimized_question": "Did Austria employ Max Margules?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Did a film producer edit and write Katzelmacher , Lili Marleen , Whity , and The Niklashausen Journey",
     "llm_generated_optimized_question": "Did one film producer edit and write the films Katzelmacher, Lili Marleen, Whity, and The Niklashausen Journey?",
     "final_optimized_question": "Did one film producer edit and write the films Katzelmacher, Lili Marleen, Whity, and The Niklashausen Journey?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What writer and cinematographer of Anyone Lived in a Pretty How Town , 1:42.08 , and Look at Life executive produced Star Wars: Episode I – The Phantom Menace and The Land Before Time",
     "llm_generated_optimized_question": "Who executive produced \"Star Wars: Episode I – The Phantom Menace\" and \"The Land Before Time\" and also was the writer and cinematographer for \"Anyone Lived in a Pretty How Town\", \"1:42.08\", and \"Look at Life\"?",
     "final_optimized_question": "Who executive produced \"Star Wars: Episode I – The Phantom Menace\" and \"The Land Before Time\" and also was the writer and cinematographer for \"Anyone Lived in a Pretty How Town\", \"1:42.08\", and \"Look at Life\"?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What child and parent of a company did Verizon acquire",
     "llm_generated_optimized_question": "Which subsidiary and parent company did Verizon acquire?",
-    "final_optimized_question": "Which subsidiary and parent company did Verizon acquire?",
-    "validation_status": "no"
+    "final_optimized_question": "Which company did Verizon acquire which are subsidiary and parent of the same company?",
+    "validation_status": "manually optimized"
   },
   {
     "question_original": "Was Higher Ground Productions 's founder a parent of Malia Obama",
     "llm_generated_optimized_question": "Is the founder of Higher Ground Productions a parent of Malia Obama?",
     "final_optimized_question": "Is the founder of Higher Ground Productions a parent of Malia Obama?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was Stop for Bud written by , edited by , and directed by Ole John , Jens Jørgen Thorsen , and Jørgen Leth",
     "llm_generated_optimized_question": "Did Ole John, Jens Jørgen Thorsen, and Jørgen Leth write, edit, and direct \"Stop for Bud\"?",
     "final_optimized_question": "Did Ole John, Jens Jørgen Thorsen, and Jørgen Leth write, edit, and direct \"Stop for Bud\"?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "What spouse and sibling of Antiochus IV Epiphanes married Antiochus",
     "llm_generated_optimized_question": "Who, among the spouse and sibling of Antiochus IV Epiphanes, married Antiochus?",
     "final_optimized_question": "Who, among the spouse and sibling of Antiochus IV Epiphanes, married Antiochus?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Which film was directed by , edited by , written by , and produced by Jens Jørgen Thorsen , Jørgen Leth , and Ole John",
     "llm_generated_optimized_question": "Which film was directed, edited, written, and produced by Jens Jørgen Thorsen, Jørgen Leth, and Ole John?",
     "final_optimized_question": "Which film was directed, edited, written, and produced by Jens Jørgen Thorsen, Jørgen Leth, and Ole John?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   },
   {
     "question_original": "Was a composer of A Woman of Paris and Pay Day a editor and star of Modern Times , City Lights , and The Essanay-Chaplin Revue of 1916",
     "llm_generated_optimized_question": "Did the composer of \"A Woman of Paris\" and \"Pay Day\" also serve as the editor and star of \"Modern Times\", \"City Lights\", and \"The Essanay-Chaplin Revue of 1916\"?",
     "final_optimized_question": "Did the composer of \"A Woman of Paris\" and \"Pay Day\" also serve as the editor and star of \"Modern Times\", \"City Lights\", and \"The Essanay-Chaplin Revue of 1916\"?",
-    "validation_status": "no"
+    "validation_status": "generated question not changed"
   }
 ]
