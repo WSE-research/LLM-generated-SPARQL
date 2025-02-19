@@ -70,18 +70,18 @@ def main():
                             },
                             'format': SPARQL.model_json_schema(),
                         }
-                        response = requests.post(url, headers=headers, data=json.dumps(data))
+                        try:
+                            response = requests.post(url, headers=headers, data=json.dumps(data))
 
-#                        print(response.text)
-#                        exit()
-
-                        response = {
-                            'question': item['en'],
-                            'model': model,
-                            'process': process,
-                            'prompt': prompt,
-                            'response': response.json()['response'],
-                        }
+                            response = {
+                                'question': item['en'],
+                                'model': model,
+                                'process': process,
+                                'prompt': prompt,
+                                'response': response.json()['response'],
+                            }
+                        except:
+                            pass
 
                         with jsonlines.open(out_file, 'a') as writer:
                             writer.write(response)
