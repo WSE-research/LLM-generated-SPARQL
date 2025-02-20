@@ -27,8 +27,8 @@ headers = {
 }
 
 models = {
-    'qwen_2.5': ['qwen2.5:latest', 'qwen2.5:14b', 'qwen2.5:32b', 'qwen2.5:72b',],
-    'deepseek_r1': ['deepseek-r1:7b', 'deepseek-r1:14b', 'deepseek-r1:32b', 'deepseek-r1:70b',],
+#    'qwen_2.5': ['qwen2.5:latest', 'qwen2.5:14b', 'qwen2.5:32b', 'qwen2.5:72b',],
+#    'deepseek_r1': ['deepseek-r1:7b', 'deepseek-r1:14b', 'deepseek-r1:32b', 'deepseek-r1:70b',],
     'llama_3.3': ['llama3.3:70b'],
     'mistral': ['mistral-small:latest', 'mistral-large:latest'],
 }
@@ -80,8 +80,9 @@ def main():
                                 'prompt': prompt,
                                 'response': response.json()['response'],
                             }
-                        except:
-                            pass
+                        except Exception as e:
+                            print(f'Error: {e}')
+                            continue
 
                         with jsonlines.open(out_file, 'a') as writer:
                             writer.write(response)
